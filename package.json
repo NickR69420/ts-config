@@ -1,0 +1,22 @@
+{
+  "name": "@nickdoespackages/ts-config",
+  "version": "1.0.0",
+  "description": "My Typescript Config",
+  "main": "tsconfig.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NickR69420/ts-config.git"
+  },
+  "keywords": [
+    "ts-config"
+  ],
+  "author": "NickR69420",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/NickR69420/ts-config/issues"
+  },
+  "homepage": "https://github.com/NickR69420/ts-config#readme"
+}
