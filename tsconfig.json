@@ -1,21 +1,22 @@
 {
 	"compilerOptions": {
 		"lib": ["ESNext"],
-		"module": "commonjs",
-		"moduleResolution": "node",
+		"module": "CommonJS",
+		"moduleResolution": "Node",
+		"newLine": "lf",
 		"target": "ESNext",
 		"outDir": "dist",
-		"sourceMap": false,
+		"sourceMap": true,
 		"esModuleInterop": true,
 		"experimentalDecorators": true,
 		"emitDecoratorMetadata": true,
 		"allowSyntheticDefaultImports": true,
+		"removeComments": true,
 		"skipLibCheck": true,
 		"skipDefaultLibCheck": true,
 		"resolveJsonModule": true,
 		"importHelpers": true,
         "pretty": true,
+		"useDefineForClassFields": true
 	},
-	"include": ["src"],
-	"exclude": ["node_modules", "**/*.spec.ts"]
 }
